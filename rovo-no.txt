@@ -1,0 +1,12 @@
+! In-progress block list for all Ai-related prompts in Atlassian products.
+
+! Remove "Type space to ask Rovo" prompt on empty lines when editing Confluence pages
+atlassian.net##[data-testid="app-navigation-ai-mate"]
+
+! Remove two different "Ask Rovo" buttons
+atlassian.net##[data-testid="platform-ai-button"]:upward(5)
+atlassian.net##[data-testid="editor-toolbar__ask-rovo"]:upward(3)
+
+! Remove confluence Improve Writing and Ask Rovo prompts
+atlassian.net##[aria-label="Improve writing"]
+atlassian.net##[aria-label="Ask Rovo"]
