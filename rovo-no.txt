@@ -1,5 +1,6 @@
 ! In-progress block list for all Ai-related prompts in Atlassian products.
 
+
 ! Remove "Type space to ask Rovo" prompt on empty lines when editing Confluence pages
 atlassian.net##[data-testid="app-navigation-ai-mate"]
 
@@ -12,14 +13,14 @@ atlassian.net##[aria-label="Improve writing"]
 atlassian.net##[aria-label="Ask Rovo"]
 
 ! Remove Jira "Similar Work Items" beta prompt in task creation
-^cloud.jira^##[data-testid="ai-proactive-container.ai-container"]
+##[data-testid="ai-proactive-container.ai-container"]
 
 ! Remove Jira "Ask Rovo" prompt in top right
-^cloud.jira^##[data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"]
+##[data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"]
 
-! Remove floating Jira Rovo Button in bottom left
-^cloud.jira^##[data-testid="platform-ai-button"]
+! Remove floating Jira Rovo Button in bottom left. Technically hides the entire lower right toolbar area but really, who needs that shit?
+##[data-testid="layout-controller.ui.bottom-right-corner.container.styled-container"]
 
 ! Remove "Improve work item" prompt from issue view
-^cloud.jira^##[data-testid="issue.views.issue-base.foundation.status.improve-issue"]
+##[data-testid="issue.views.issue-base.foundation.status.improve-issue"]
 
