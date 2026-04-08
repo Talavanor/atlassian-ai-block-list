@@ -10,3 +10,16 @@ atlassian.net##[data-testid="editor-toolbar__ask-rovo"]:upward(3)
 ! Remove confluence Improve Writing and Ask Rovo prompts
 atlassian.net##[aria-label="Improve writing"]
 atlassian.net##[aria-label="Ask Rovo"]
+
+! Remove Jira "Similar Work Items" beta prompt in task creation
+atlassian.net##[data-testid="ai-proactive-container.ai-container"]
+
+! Remove Jira "Ask Rovo" prompt in top right
+atlassian.net##[data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"]
+
+! Remove floating Jira Rovo Button in bottom left
+atlassian.net##[data-testid="platform-ai-button"]
+
+! Remove "Improve work item" prompt from issue view
+atlassian.net##[data-testid="issue.views.issue-base.foundation.status.improve-issue"]
+
