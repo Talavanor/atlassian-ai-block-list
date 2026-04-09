@@ -30,3 +30,9 @@ atlassian.net##[aria-label="Ask Rovo"]
 ! Remove "Improve work item" prompt from issue view
 ##[data-testid="issue.views.issue-base.foundation.status.improve-issue"]
 
+! Remove writing assistant button from comment edit box
+##[data-testid="atlassian-intelligence-toolbar-button"]
+
+! Remove suggest subtasks button from jira issue details view
+##[data-testid="ai-work-breakdown.ui.issue-breakdown-button.button"]
+
