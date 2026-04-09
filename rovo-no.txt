@@ -4,9 +4,15 @@
 ! Remove "Type space to ask Rovo" prompt on empty lines when editing Confluence pages
 atlassian.net##[data-testid="app-navigation-ai-mate"]
 
+! Remove Ask Rovo button from read-mode context menu
+atlassian.net##[data-testid="context-menu-rovo-chat-button"]
+
 ! Remove two different "Ask Rovo" buttons
 atlassian.net##[data-testid="platform-ai-button"]:upward(5)
 atlassian.net##[data-testid="editor-toolbar__ask-rovo"]:upward(3)
+
+! Remove "Suggest Title" from page title section when editing a document
+atlassian.net##span:has-text(Suggest title):upward(2)
 
 ! Remove confluence Improve Writing and Ask Rovo prompts
 atlassian.net##[aria-label="Improve writing"]
